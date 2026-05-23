@@ -46,7 +46,7 @@ def test_power():
 
 @pytest.mark.RegressionTest
 def test_sqrt():
-    assert calc.sqrt(4) == 2
+    assert calc.sqrt(4) == 5
     assert calc.sqrt(0) == 0
     assert calc.sqrt(2.25) == 1.5
     
